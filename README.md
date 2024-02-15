@@ -11,7 +11,9 @@ $ sudo bash DOWNLOAD_PATH/Miniconda3-latest-Linux-x86_64.sh
 1. Accept End User License Agreement
 2. Change installation location to: **/home/apps/miniconda3/<version>** (e.g. ***/home/apps/miniconda3/23.11.0***)
 
-### 2. Create a module file in the following location: /cm/shared/modulesfiles/miniconda/23.11.0 **Update the version number accordingly
+### 2. Create a module file
+File location: **/cm/shared/modulesfiles/miniconda/23.11.0** << *Update the version number accordingly*
+
 ````
 #%Module -*- tcl -*-
 ##
