@@ -9,9 +9,9 @@ Latest Miniconda installer links, visit https://docs.anaconda.com/free/miniconda
 $ sudo bash DOWNLOAD_PATH/Miniconda3-latest-Linux-x86_64.sh
 ````
 1. Accept End User License Agreement
-2. Change installation location to: **/home/apps/miniconda3/<version>** (e.g. ***/home/apps/miniconda3/23.10.0***)
+2. Change installation location to: **/home/apps/miniconda3/<version>** (e.g. ***/home/apps/miniconda3/23.11.0***)
 
-### 2. Create a module file in the following location: /cm/shared/modulesfiles/miniconda/23.10.0 **Update the version number accordingly
+### 2. Create a module file in the following location: /cm/shared/modulesfiles/miniconda/23.11.0 **Update the version number accordingly
 ````
 #%Module -*- tcl -*-
 ##
@@ -37,7 +37,7 @@ if { [module-info mode load] } {
 ## Initializing the conda environment as module
 User can load the module using the following:
 ````
-module load miniconda/23.10.0
+module load miniconda/23.11.0
 ````
 
 If loaded successfully, a prefix **(base)** would be inserted to PS1 prompt
